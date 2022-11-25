@@ -1,0 +1,363 @@
+/* .Container{
+    width: 50%;
+    height: 1000px;
+    background-color: black;
+    margin-left: 25%;
+    margin-left: 25%; 
+    
+    padding-top: 100px;
+    
+}
+
+.InsideContainer{
+    width: 80%;
+    height: 900px;
+    background-color: #14002E;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+} */
+
+@media screen and (min-width:10px) {
+    .Container{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        margin-left: 0%;
+        margin-left: 0%; 
+        
+        padding-top: 100px;
+        
+    }
+    
+    .InsideContainer{
+        width: 80%;
+        height: auto;
+        background-color: #14002E;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        
+    }
+    .DummyInerContainer{
+        width: 80%;
+        height: 100px;
+        background-color: #14002E;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .IndexPageIMG{
+        max-width: 100%;
+       
+       }
+    
+    .Text-Heading{
+    
+        width: 71.861%;
+        margin-left: 15%;
+        
+        
+        
+       }
+    .Text-Sub-Heading{
+        color: white;
+        margin-top: 5%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+       }
+    
+    .Button-Signup{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 37px;
+        background-color: #F236AF;
+        border: 0px;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+       }
+
+       .SecondContainer{
+        margin-top: 15%;
+        width: 80%;
+        height: 700px;
+        background-color:black;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    
+       }
+
+       .Paragraph{
+        font-size: 25px;
+       }
+    
+       .onlyPara{
+        margin-top: 50px;
+       }
+    
+}
+
+@media screen and (min-width:500px) {
+    .Container{
+        width: 80%;
+        height: auto;
+        background-color: black;
+        margin-left: 10%;
+        margin-left: 10%; 
+        
+        padding-top: 100px;
+        
+    }
+    
+    .InsideContainer{
+        width: 80%;
+        height:auto;
+        background-color: #14002E;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        
+    }
+    .DummyInerContainer{
+        width: 80%;
+        height: 100px;
+        background-color: #14002E;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .IndexPageIMG{
+        max-width: 100%;
+        
+       }
+
+    .Text-Heading{
+    
+        width: 71.861%;
+        margin-left: 15%;
+        
+        
+        
+       }
+    .Text-Sub-Heading{
+        color: white;
+        margin-top: 5%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+       }
+    .Button-Signup{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 37px;
+        background-color: #F236AF;
+        border: 0px;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+       }
+       .SecondContainer{
+        margin-top: 15%;
+        width: 80%;
+        height: 700px;
+        background-color:black;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    
+       }
+       .Paragraph{
+        font-size: 25px;
+       }
+    
+       .onlyPara{
+        margin-top: 50px;
+       }
+}
+
+
+
+@media screen and (min-width:800px) {
+    .Container{
+        width: 75%;
+        height: auto;
+        background-color: black;
+        margin-left: 12.5%;
+        margin-left: 12.5%; 
+        
+        padding-top: 100px;
+        
+    }
+    
+    .InsideContainer{
+        width: 80%;
+        height: auto;
+        background-color: #14002E;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        
+    }
+    .DummyInerContainer{
+        width: 80%;
+        height: 100px;
+        background-color: #14002E;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .IndexPageIMG{
+        max-width: 100%;
+        
+       }
+
+    .Text-Heading{
+    
+        width: 71.861%;
+        margin-left: 15%;
+        
+        
+        
+       }
+    .Text-Sub-Heading{
+        color: white;
+        margin-top: 5%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+       }
+
+    .Button-Signup{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 37px;
+        background-color: #F236AF;
+        border: 0px;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+       }
+
+       .SecondContainer{
+        margin-top: 15%;
+        width: 80%;
+        height: 700px;
+        background-color:black;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    
+       }
+
+       .Paragraph{
+        font-size: 25px;
+       }
+    
+       .onlyPara{
+        margin-top: 50px;
+       }
+    
+}
+
+
+
+@media screen and (min-width:1000px) {
+    .Container{
+        width: 50%;
+        height: auto;
+        background-color: black;
+        margin-left: 25%;
+        margin-right: 25%; 
+        
+        padding-top: 100px;
+        
+    }
+    
+    .InsideContainer{
+        width: 80%;
+        height: auto;
+        background-color: #14002E;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        
+    }
+    .DummyInerContainer{
+        width: 80%;
+        height: 100px;
+        background-color: #14002E;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+   .IndexPageIMG{
+    max-width: 100%;
+   
+   }
+   .Text-Heading{
+    
+    width: 71.861%;
+    margin-left: 15%;
+    
+    
+    
+   }
+   .Text-Sub-Heading{
+    color: white;
+    margin-top: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+   }
+   .Button-Signup{
+    width: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 37px;
+    background-color: #F236AF;
+    border: 0px;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+   }
+
+   .SecondContainer{
+    margin-top: 15%;
+    width: 80%;
+    height: 700px;
+    background-color:black;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+
+   }
+   .Paragraph{
+    font-size: 25px;
+   }
+
+   .onlyPara{
+    margin-top: 50px;
+   }
+
+   .Button-JoinTheClub{
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 10%;
+    height: 62px;
+    background-color: #F236AF;
+    border: 0px;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+
+   }
+   
+}
+
+
