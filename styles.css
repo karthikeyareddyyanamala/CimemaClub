@@ -99,6 +99,19 @@
        .onlyPara{
         margin-top: 50px;
        }
+       .Button-JoinTheClub{
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 10%;
+        height: 62px;
+        background-color: #F236AF;
+        border: 0px;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+    
+       }
     
 }
 
@@ -177,6 +190,19 @@
     
        .onlyPara{
         margin-top: 50px;
+       }
+       .Button-JoinTheClub{
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 10%;
+        height: 62px;
+        background-color: #F236AF;
+        border: 0px;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+    
        }
 }
 
@@ -260,6 +286,19 @@
     
        .onlyPara{
         margin-top: 50px;
+       }
+       .Button-JoinTheClub{
+        width: 60%;
+        margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 10%;
+        height: 62px;
+        background-color: #F236AF;
+        border: 0px;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+    
        }
     
 }
