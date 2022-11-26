@@ -84,7 +84,7 @@
        .SecondContainer{
         margin-top: 15%;
         width: 80%;
-        height: 700px;
+        height: auto;
         background-color:black;
         margin-left: 10%;
         margin-right: 10%;
@@ -112,6 +112,113 @@
         font-size: 18px;
     
        }
+       .FeedBack{
+        width: 35px;
+        height: 200px;
+        background-color: #8324CB;
+        margin-left: 90%;
+        position: fixed;
+        right: 2%;
+        top: 50%; 
+        writing-mode:vertical-lr;
+        transform: rotate(180deg);
+        color: white;
+        font-size: 24px;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+        .Feebbackimg {
+            transform: rotate(180deg);
+            margin-bottom: 10px;
+            
+            
+        }
+
+        .nav-links{
+        
+        
+            font-size: 17px;
+            font-weight: 400;
+            display: flex;
+            margin-left: 3%;
+            
+            
+            
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        
+           }
+    
+           .nav-links a{
+                color: white;
+                text-decoration: none;
+                margin-left: 4px;
+                margin-right: 0;
+                margin-top: 0px;
+                
+                
+                
+                
+                
+           }
+    
+           .Navbar{
+            
+            display: flex;
+            height: 60px;
+            width: 97%;
+            
+            padding: 10px;
+            position: fixed;
+            top: 5%;
+           }
+           .LogoImg{
+            width: 25px;
+            height: 25px;
+            margin-left:2%;
+    
+    
+           }
+           
+           .nav div{
+            
+            height: 3px;
+            background-color: #fff;
+            margin-top: 4px;
+            border-radius: 25px;
+            transition: 0.8s;
+    
+           }
+           .one{
+            width: 25px;
+    
+           }
+           .two{
+            width: 10px;
+           }
+           .three{
+            width: 25px;
+           }
+           .nav:hover div{
+            width: 25px;
+           }
+           .Button-Signup-nav{
+            width: 19%;
+            
+            margin-left: 4%;
+          
+            height: 45px;
+            background-color: #8324CB;
+            border: 0px;
+            border-radius: 7px;
+            color: white;
+            font-size: 18px;
+    
+           }
     
 }
 
@@ -177,7 +284,7 @@
        .SecondContainer{
         margin-top: 15%;
         width: 80%;
-        height: 700px;
+        height: auto;
         background-color:black;
         margin-left: 10%;
         margin-right: 10%;
@@ -204,6 +311,110 @@
         font-size: 18px;
     
        }
+       .FeedBack{
+        width: 40px;
+        height: 200px;
+        background-color: #8324CB;
+        margin-left: 90%;
+        position: fixed;
+        right: 12%;
+        top: 50%; 
+        writing-mode:vertical-lr;
+        transform: rotate(180deg);
+        color: white;
+        font-size: 24px;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    }
+        .Feebbackimg {
+            transform: rotate(180deg);
+            margin-bottom: 10px;
+            
+            
+        }
+        .nav-links{
+        
+        
+            font-size: 19px;
+            font-weight: 400;
+            display: flex;
+            margin-left: 5%;
+            
+            
+            
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        
+           }
+    
+           .nav-links a{
+                color: white;
+                text-decoration: none;
+                margin-left: 10px;
+                margin-right: 0;
+                margin-top: 10px;
+                
+                
+                
+                
+                
+           }
+    
+           .Navbar{
+            
+            display: flex;
+            height: 60px;
+            width: 77%;
+            
+            padding: 10px;
+            position: fixed;
+            top: 5%;
+           }
+           .LogoImg{
+            width: 40px;
+            height: 40px;
+            margin-left:2%;
+    
+    
+           }
+           .nav div{
+            height: 3px;
+            background-color: #fff;
+            margin-top: 8px;
+            border-radius: 25px;
+            transition: 0.8s;
+    
+           }
+           .one{
+            width: 30px;
+    
+           }
+           .two{
+            width: 20px;
+           }
+           .three{
+            width: 25px;
+           }
+           .nav:hover div{
+            width: 30px;
+           }
+           .Button-Signup-nav{
+            width: 19%;
+            
+            margin-left: 4%;
+          
+            height: 45px;
+            background-color: #8324CB;
+            border: 0px;
+            border-radius: 7px;
+            color: white;
+            font-size: 18px;
+    
+           }
 }
 
 
@@ -272,7 +483,7 @@
        .SecondContainer{
         margin-top: 15%;
         width: 80%;
-        height: 700px;
+        height: auto;
         background-color:black;
         margin-left: 10%;
         margin-right: 10%;
@@ -300,7 +511,110 @@
         font-size: 18px;
     
        }
+       .FeedBack{
+        width: 50px;
+        height: 200px;
+        background-color: #8324CB;
+        margin-left: 90%;
+        position: fixed;
+        right: 14%;
+        top: 50%; 
+        writing-mode:vertical-lr;
+        transform: rotate(180deg);
+        color: white;
+        font-size: 24px;
+        letter-spacing: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
+    }
+        .Feebbackimg {
+            transform: rotate(180deg);
+            margin-bottom: 10px;
+            
+            
+        }
+        .nav-links{
+        
+        
+            font-size: 20px;
+            font-weight: 400;
+            display: flex;
+            margin-left: 5%;
+            
+            
+            
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+        
+           }
+    
+           .nav-links a{
+                color: white;
+                text-decoration: none;
+                margin-left: 20px;
+                margin-right: 0;
+                margin-top: 10px;
+                
+                
+                
+                
+                
+           }
+    
+           .Navbar{
+            
+            display: flex;
+            height: 60px;
+            width: 72%;
+            
+            padding: 10px;
+            position: fixed;
+            top: 5%;
+           }
+           .LogoImg{
+            width: 60.138px;
+            height: 56px;
+            margin-left:2%;
+    
+    
+           }
+           .nav div{
+            height: 3px;
+            background-color: #fff;
+            margin-top: 10px;
+            border-radius: 25px;
+            transition: 0.8s;
+    
+           }
+           .one{
+            width: 80px;
+    
+           }
+           .two{
+            width: 50px;
+           }
+           .three{
+            width: 70px;
+           }
+           .nav:hover div{
+            width: 50px;
+           }
+           .Button-Signup-nav{
+            width: 20%;
+            
+            margin-left: 10%;
+          
+            height: 56px;
+            background-color: #8324CB;
+            border: 0px;
+            border-radius: 7px;
+            color: white;
+            font-size: 18px;
+    
+           }
 }
 
 
@@ -313,7 +627,8 @@
         margin-left: 25%;
         margin-right: 25%; 
         
-        padding-top: 100px;
+        padding-top: 5px;
+        flex-flow: row wrap;
         
     }
     
@@ -323,6 +638,8 @@
         background-color: #14002E;
         margin-left: 10%;
         margin-right: 10%;
+        margin-top: 80px;
+        
         
         
     }
@@ -368,10 +685,11 @@
    .SecondContainer{
     margin-top: 15%;
     width: 80%;
-    height: 700px;
+    height: auto;
     background-color:black;
     margin-left: 10%;
     margin-right: 10%;
+    
     
 
    }
@@ -396,7 +714,110 @@
     font-size: 18px;
 
    }
-   
+   .FeedBack{
+    width: 50px;
+    height: 200px;
+    background-color: #8324CB;
+    margin-left: 90%;
+    position: fixed;
+    right: 25.5%;
+    top: 50%; 
+    writing-mode:vertical-lr;
+    transform: rotate(180deg);
+    color: white;
+    font-size: 24px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
+    .Feebbackimg {
+        transform: rotate(180deg);
+        margin-bottom: 10px;
+        
+        
+    }
+    .nav-links{
+        
+        
+        font-size: 20px;
+        font-weight: 400;
+        display: flex;
+        margin-left: 5%;
+        
+        
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    
+       }
+
+       .nav-links a{
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            margin-right: 0;
+            margin-top: 10px;
+            
+            
+            
+            
+            
+       }
+
+       .Navbar{
+        
+        display: flex;
+        height: 60px;
+        width: 48%;
+        top: 10px;
+        padding: 10px;
+        position: fixed;
+       }
+       .LogoImg{
+        width: 60.138px;
+        height: 56px;
+        margin-left:2%;
+
+
+       }
+       .nav div{
+        height: 3px;
+        background-color: #fff;
+        margin-top: 10px;
+        border-radius: 25px;
+        transition: 0.8s;
+
+       }
+       .one{
+        width: 80px;
+
+       }
+       .two{
+        width: 50px;
+       }
+       .three{
+        width: 70px;
+       }
+       .nav:hover div{
+        width: 50px;
+       }
+       .Button-Signup-nav{
+        width: 20%;
+        
+        margin-left: 10%;
+      
+        height: 56px;
+        background-color: #8324CB;
+        border: 0px;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+
+       }
+}
+
 
 
