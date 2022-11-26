@@ -219,6 +219,97 @@
             font-size: 18px;
     
            }
+           .SocialMediaLinks{
+            color: white;
+            display: flex;
+            margin-left: 35%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.8px;
+    
+    
+    
+           }
+           footer p{
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            margin-left: 10%;
+            padding-bottom: 15px;
+           }
+           footer h3{
+            padding-right: 10px;
+            width: 100px;
+           }
+           footer img{
+            padding-right: 10px;
+            margin-top: 18px;
+           }
+           hr{
+            border: 2px solid white;
+           }
+           .Post{
+            width: 70%;
+            height: 600px;
+            background-color: white;
+            margin-left: 15%;
+            margin-top: 100px;
+            border-radius: 50px;
+            
+            border: 4px solid #FF5C00;
+           }
+           #Circle{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #FF5C00;
+            margin-left: 20px;
+            margin-top: 27px;
+           }
+           #Rectangle{
+            width: 140px;
+            height: 45px;
+            border-radius: 10px;
+            background-color: #FF5C00;
+            margin-left: 10px;
+            margin-top: 15px;
+            display: flex;
+            position: absolute;
+            
+           }
+           
+           #Rectangle a{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin-left: 25%;
+            margin-top: 8%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+           }
+           .Post p{
+            
+            color:black;
+            font-size: 14px;
+            
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+           }
+           .Description{
+            width: 90%;
+            height: 90px;
+            
+            margin-top: 100px;
+            margin-right: 70px;
+           }
+           .Video{
+            width: 58%;
+            height:350px ;
+            margin-top: -90px;
+            margin-left: 20px;
+            position: absolute;
+           }
+           
     
 }
 
@@ -415,7 +506,126 @@
             font-size: 18px;
     
            }
+           .SocialMediaLinks{
+            color: white;
+            display: flex;
+            margin-left: 35%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.8px;
+    
+    
+    
+           }
+           footer p{
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            margin-left: 10%;
+            padding-bottom: 15px;
+           }
+           footer h3{
+            padding-right: 10px;
+           }
+           footer img{
+            padding-right: 10px;
+            margin-top: 18px;
+           }
+           hr{
+            border: 2px solid white;
+           }
+           .Post{
+            width: 60%;
+            height: 600px;
+            background-color: white;
+            margin-left: 20%;
+            margin-top: 100px;
+            border-radius: 50px;
+            display: flex;
+            border: 4px solid #FF5C00;
+           }
+           #Circle{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #FF5C00;
+            margin-left: 20px;
+            margin-top: 27px;
+           }
+           #Rectangle{
+            width: 140px;
+            height: 45px;
+            border-radius: 10px;
+            background-color: #FF5C00;
+            margin-left: 90px;
+            margin-top: 30px;
+            display: flex;
+            position: absolute;
+            
+           }
+           
+           #Rectangle a{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin-left: 25%;
+            margin-top: 8%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+           }
+           .Post p{
+            
+            color:black;
+            font-size: 14px;
+            
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+           }
+           .Description{
+            width: 70%;
+            height: 90px;
+            
+            margin-top: 100px;
+            margin-right: 70px;
+           }
+           .Video{
+            width: 35%;
+            height:300px ;
+            margin-top: 200px;
+            margin-left: 50px;
+            position: absolute;
+           }
+           
 }
+@media screen and (min-width:616px) {
+    #Rectangle{
+        width: 150px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: #FF5C00;
+        margin-left: 130px;
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        
+       }
+}
+
+@media screen and (min-width:712px) {
+    #Rectangle{
+        width: 150px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: #FF5C00;
+        margin-left: 180px;
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        
+       }
+
+}
+
 
 
 
@@ -614,6 +824,95 @@
             color: white;
             font-size: 18px;
     
+           }
+           .SocialMediaLinks{
+            color: white;
+            display: flex;
+            margin-left: 35%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            letter-spacing: 0.8px;
+    
+    
+    
+           }
+           footer p{
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            margin-left: 10%;
+            padding-bottom: 15px;
+           }
+           footer h3{
+            padding-right: 10px;
+           }
+           footer img{
+            padding-right: 10px;
+            margin-top: 18px;
+           }
+           hr{
+            border: 2px solid white;
+           }
+           .Post{
+            width: 60%;
+            height: 600px;
+            background-color: white;
+            margin-left: 20%;
+            margin-top: 100px;
+            border-radius: 50px;
+            display: flex;
+            border: 4px solid #FF5C00;
+           }
+           #Circle{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #FF5C00;
+            margin-left: 20px;
+            margin-top: 27px;
+           }
+           #Rectangle{
+            width: 150px;
+            height: 45px;
+            border-radius: 10px;
+            background-color: #FF5C00;
+            margin-left: 200px;
+            margin-top: 30px;
+            display: flex;
+            position: absolute;
+            
+           }
+           
+           #Rectangle a{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            margin-left: 25%;
+            margin-top: 8%;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+           }
+           .Post p{
+            
+            color:black;
+            font-size: 14px;
+            
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            
+           }
+           .Description{
+            width: 70%;
+            height: 90px;
+            
+            margin-top: 100px;
+            margin-right: 70px;
+           }
+           .Video{
+            width: 30%;
+            height:300px ;
+            margin-top: 200px;
+            margin-left: 60px;
+            position: absolute;
            }
 }
 
@@ -817,7 +1116,129 @@
         font-size: 18px;
 
        }
+       .SocialMediaLinks{
+        color: white;
+        display: flex;
+        margin-left: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        margin-left: 35%;
+        
+
+
+
+       }
+       footer p{
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        padding-bottom: 15px;
+       }
+       footer h3{
+        padding-right: 10px;
+       }
+       footer img{
+        padding-right: 10px;
+        margin-top: 18px;
+       }
+       hr{
+        border: 2px solid white;
+       }
+
+       .Post{
+        width: 60%;
+        height: 600px;
+        background-color: white;
+        margin-left: 20%;
+        margin-top: 100px;
+        border-radius: 50px;
+        display: flex;
+        border: 4px solid #FF5C00;
+       }
+       #Circle{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #FF5C00;
+        margin-left: 20px;
+        margin-top: 27px;
+       }
+       #Rectangle{
+        width: 150px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: #FF5C00;
+        margin-left: 130px;
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        
+       }
+       
+       #Rectangle a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        margin-left: 25%;
+        margin-top: 8%;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+       }
+       .Post p{
+        
+        color:black;
+        font-size: 14px;
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+       }
+       .Description{
+        width: 70%;
+        height: 90px;
+        
+        margin-top: 100px;
+        margin-right: 70px;
+       }
+       .Video{
+        width: 25%;
+        height:300px ;
+        margin-top: 200px;
+        margin-left: 30px;
+        position: absolute;
+       }
+       
 }
+@media screen and (min-width:1100px) {
+    #Rectangle{
+        width: 150px;
+        height: 45px;
+        border-radius: 10px;
+        background-color:  #FF5C00;
+        margin-left: 16%;
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        
+        
+       }
+    
+   }
+
+@media screen and (min-width:1300px) {
+    #Rectangle{
+        width: 150px;
+        height: 45px;
+        border-radius: 10px;
+        background-color:  #FF5C00;
+        margin-left: 18%;
+        margin-top: 30px;
+        display: flex;
+        position: absolute;
+        
+       }
+    
+   }
 
 
 
