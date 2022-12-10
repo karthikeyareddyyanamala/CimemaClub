@@ -336,7 +336,7 @@ body{
            }
            .form-input{
             width: 90%;
-            margin: 20px;
+            margin: 8px;
             height: 55px;
             border: black;
             border-radius: 5px;
@@ -438,6 +438,77 @@ body{
             opacity: 1;
             
         }
+        .feedback_rating{
+
+            text-align: center;
+            width: 50%;
+            height: 150px;
+            background-color: #c579ff;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            position: fixed;
+            left: 35%;
+            top: 53%;
+            opacity: 0;
+            transform: translateX(-500%);
+            
+           
+        }
+        
+        
+        .feedback-button{
+            width: 40%;
+            /* margin-top: 5%;
+            margin-left: 20%;
+            margin-right: 10%; */
+            height: 30px;
+            background-color: #7f5eea70;
+            border: 0px;
+            border-radius: 7px;
+            color: white;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .feedback-button:hover{
+            cursor: pointer;
+        }
+       
+        .feedback_rating_active{
+            transform: translateX(0%);
+            opacity: 1;
+        }
+        
+        .rating {
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 5%;
+            
+            
+    
+         }
+         
+         .rating__star {
+            margin: 2px;
+            cursor: pointer;
+            color: #ffdc15b2;
+            font-size: 15px;
+            
+         }
+         
+       
+    
+         .FeedBack:hover{
+            cursor: pointer;
+         }
+}
+@media screen and (min-width:400px) {
+    .rating{
+        margin-left: 10%;
+    }
+    
 }
 
 @media screen and (min-width:500px) {
@@ -734,7 +805,7 @@ body{
            }
            .form-input{
             width: 90%;
-            margin: 20px;
+            margin: 8px;
             height: 55px;
             border: black;
             border-radius: 5px;
@@ -836,10 +907,83 @@ body{
             opacity: 1;
             
         }
+        .feedback_rating{
+
+            text-align: center;
+            width: 45%;
+            height: 170px;
+            background-color: #c579ff;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 16px;
+            position: fixed;
+            left: 35%;
+            top: 53%;
+            opacity: 0;
+            transform: translateX(-500%);
+            
+           
+        }
+        
+        
+        .feedback-button{
+            width: 30%;
+            /* margin-top: 5%;
+            margin-left: 20%;
+            margin-right: 10%; */
+            height: 30px;
+            background-color: #7f5eea70;
+            border: 0px;
+            border-radius: 7px;
+            color: white;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .feedback-button:hover{
+            cursor: pointer;
+        }
+       
+        .feedback_rating_active{
+            transform: translateX(0%);
+            opacity: 1;
+        }
+        
+        .rating {
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 15%;
+            
+    
+         }
+         
+         .rating__star {
+            margin: 2px;
+            cursor: pointer;
+            color: #ffdc15b2;
+            font-size: 20px;
+            
+         }
+         
+       
+    
+         .FeedBack:hover{
+            cursor: pointer;
+         }
 }
 
 
+@media screen and (min-width:600px) {
 
+    .feedback_rating{
+            width: 45%;
+            left: 37%;  
+          }
+          .rating {
+            margin-left: 24%;
+         }
+        
+}
 
 @media screen and (min-width:800px) {
     .Container{
@@ -1140,7 +1284,7 @@ body{
            }
            .form-input{
             width: 90%;
-            margin: 20px;
+            margin: 8px;
             height: 55px;
             border: black;
             border-radius: 5px;
@@ -1242,6 +1386,70 @@ body{
             opacity: 1;
             
         }
+        .feedback_rating{
+
+            text-align: center;
+            width: 30%;
+            height: 170px;
+            background-color: #c579ff;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+            position: fixed;
+            left: 50%;
+            top: 53%;
+            opacity: 0;
+            transform: translateX(-500%);
+            
+           
+        }
+        
+        .feedback-button{
+            width: 30%;
+            /* margin-top: 5%;
+            margin-left: 20%;
+            margin-right: 10%; */
+            height: 30px;
+            background-color: #7f5eea70;
+            border: 0px;
+            border-radius: 7px;
+            color: white;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .feedback-button:hover{
+            cursor: pointer;
+        }
+       
+        .feedback_rating_active{
+            transform: translateX(0%);
+            opacity: 1;
+        }
+        
+        .rating {
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 20%;
+            
+    
+         }
+         
+         .rating__star {
+            margin: 2px;
+            cursor: pointer;
+            color: #ffdc15b2;
+            font-size: 30px;
+            
+         }
+         
+         .list-style{
+            list-style: none;
+         }
+    
+         .FeedBack:hover{
+            cursor: pointer;
+         }
            
 }
 
@@ -1555,7 +1763,7 @@ body{
        }
        .form-input{
         
-        margin: 20px;
+        margin: 8px;
         height: 55px;
         border: black;
         border-radius: 5px;
@@ -1581,9 +1789,9 @@ body{
         height: auto;
         color: white;
         background-color: #14002E;
-
+        border: 2px solid white;
         position: absolute;
-        top:10%;
+        top:14%;
         margin-left: 33%;
         display: inline-block;
         
@@ -1594,6 +1802,9 @@ body{
         
         
         
+        }
+        .singup-form p {
+            margin-left: 36px;
         }
 
         .form-active{
@@ -1656,6 +1867,77 @@ body{
         transform: translateX(0%);
         opacity: 1;
         
+    }
+    .feedback_rating{
+
+        text-align: center;
+        width: 25%;
+        height: 170px;
+        background-color: #c579ff;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+        position: fixed;
+        left: 45%;
+        top: 53%;
+        opacity: 0;
+        transform: translateX(-500%);
+        
+       
+    }
+    
+    .feedback-button{
+        width: 30%;
+        /* margin-top: 5%;
+        margin-left: 20%;
+        margin-right: 10%; */
+        height: 30px;
+        background-color: #7f5eea70;
+        border: 0px;
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .feedback-button:hover{
+        cursor: pointer;
+    }
+   
+    .feedback_rating_active{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+    
+    .rating {
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20%;
+        
+
+     }
+     
+     .rating__star {
+        margin: 2px;
+        cursor: pointer;
+        color: #ffdc15b2;
+        font-size: 30px;
+        
+     }
+     
+     .list-style{
+        list-style: none;
+     }
+
+     .FeedBack:hover{
+        cursor: pointer;
+     }
+
+}
+@media screen and (min-width:1400px) {
+    .feedback_rating{
+        width: 20%;
+        left: 51%;
     }
 
 }
