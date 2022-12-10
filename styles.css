@@ -363,7 +363,7 @@ body{
             color: white;
             background-color: #14002E;
     
-            position: absolute;
+            position: fixed;
             top:10%;
             margin-left: 5%;
             display: inline-block;
@@ -414,7 +414,7 @@ body{
             color: white;
             background-color: #14002E;
     
-            position: absolute;
+            position: fixed;
             top:15%;
             margin-left: 10%;
             display: inline-block;
@@ -467,7 +467,7 @@ body{
             border: 0px;
             border-radius: 7px;
             color: white;
-            font-size: 18px;
+            font-size: 12px;
             margin-top: 10px;
         }
         .feedback-button:hover{
@@ -832,7 +832,7 @@ body{
             color: white;
             background-color: #14002E;
     
-            position: absolute;
+            position: fixed;
             top:10%;
             margin-left: 15%;
             display: inline-block;
@@ -883,7 +883,7 @@ body{
             color: white;
             background-color: #14002E;
     
-            position: absolute;
+            position: fixed;
             top:15%;
             margin-left: 27%;
             display: inline-block;
@@ -1311,7 +1311,7 @@ body{
             color: white;
             background-color: #14002E;
     
-            position: absolute;
+            position: fixed;
             top:15%;
             margin-left: 20%;
             display: inline-block;
@@ -1362,7 +1362,7 @@ body{
             color: white;
             background-color: #14002E;
     
-            position: absolute;
+            position: fixed;
             top:15%;
             margin-left: 25%;
             display: inline-block;
@@ -1790,7 +1790,7 @@ body{
         color: white;
         background-color: #14002E;
         border: 2px solid white;
-        position: absolute;
+        position: fixed;
         top:14%;
         margin-left: 33%;
         display: inline-block;
@@ -1844,7 +1844,7 @@ body{
         color: white;
         background-color: #14002E;
 
-        position: absolute;
+        position: fixed;
         top:15%;
         margin-left: 33%;
         display: inline-block;
